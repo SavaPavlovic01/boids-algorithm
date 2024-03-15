@@ -1,0 +1,6 @@
+#parent { white-space: nowrap; }
+.child { display: inline-block; }
+body {
+    margin: 0;
+    overflow: hidden;
+}

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    
+    <style type="text/css">
+        body {
+          margin: 0;
+          overflow: hidden;
+        }
+    </style>
+    <script src='main.js'></script>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+</head>
+<body>
+    <canvas id="screen" width="150" height="150"></canvas>
+    <div id="parent">
+        <p class="child">visible range</p>
+        <input class="child" type="range" min="0" max="200" value="75" id="visible">
+        <p class="child">protected range</p>
+        <input class="child" type="range" min="0" max="20" value="8" id="protected">
+        <p class="child">match factor</p>
+        <input class="child" type="range" min="0" max="1" value="0.05" id="match" step="0.05">
+        <p class="child">center factor</p>
+        <input class="child" type="range" min="0" max="0.005" value="0.0005" id="center" step="0.0005">
+    </div>
+</body>
+</html>
